@@ -7,7 +7,8 @@ const Profile = ()  => {
     const{token} = useParams ()
     const [data,setData] = useState()
     const getData = async () => {
-        const {data} = await axios("http://localhost:8000/api/v1/profile", {
+        
+        const {data} = await axios("http://fadfaasd.herokuapp.com/api/v1/auth/google", {
             headers:{
                 "Authorization": `Bearer ${token}`
             }
