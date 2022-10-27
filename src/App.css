@@ -6,8 +6,9 @@
 .App a {
   background-color: aqua;
   position: relative;
-  font-size: 5px;
+  font-size: 5em;
   font: bold;
+  width: 100%;
 
 }
 
