@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+}
+
+.App a {
   background-color: blue;
   width: 100px;
   height: 10px;
