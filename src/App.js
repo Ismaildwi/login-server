@@ -11,7 +11,8 @@ function App() {
   path='/'
   element={
     <div className="App">
-      <a href="http://fadfaasd.herokuapp.com/api/v1/auth/google" >Login google</a>
+      <a href="http://fadfaasd.herokuapp.com/api/v1/auth/google">
+        <h1>Login google</h1> </a>
     </div>
   }
   />
